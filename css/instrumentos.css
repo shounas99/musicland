@@ -1,0 +1,98 @@
+/*Instrumentos viendo*/
+
+/*Animación de imagenes*/
+@keyframes animat {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.instrumentos {
+    overflow: hidden;
+    padding: .5em;
+}
+h4{
+    text-align: center;
+}
+
+
+.instrumentos img {
+    width: 500px;
+    height: 250px;
+    border-radius: 30px;
+    border-style: ridge;
+}
+
+/*Generales*/
+.container {
+    padding: 1em;
+    margin: inherit;
+}
+
+.Titulo-TipoI {
+    overflow: hidden;
+    margin-top: 30px;
+    padding: 1em;
+}
+.container-p {
+    padding: 1em;
+    margin: inherit;
+}
+.card {
+    margin: 1em;
+    padding: 1em;
+    float: left;
+    border-color: #233b63;
+    border-style: solid;
+}
+.item-tit{
+    float: left;
+    float: left;
+    margin: .5em;
+}
+.item-tit i{
+    color: #233b63;  
+    font-size: 30px;
+    display: inline-block;
+    border-style: outset;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    line-height: 46px;
+    cursor: pointer;
+    text-align: center;
+    transition:all ease-in-out .3s;
+    margin-right: 5px;
+}
+
+.card-body p a {
+    margin: 28px 0 0 0;
+    width: 130px;
+    display: inline-block;
+    background:rgb(18, 47, 128);
+    text-align: center;
+    color: #fff;
+    padding: 12px 0;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow:0 8px 32px rgba(47, 3, 241, 0.42) ;
+}
+.card-body p a:hover{
+    color: azure;
+    background: cornflowerblue;
+}
+
+.card img {
+    animation: ease-in animat 1s;
+}
+.card-text p {
+    color: black;
+    text-align: center;
+}
